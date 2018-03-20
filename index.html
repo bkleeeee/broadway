@@ -3,19 +3,20 @@
   <head>
     <meta charset="utf-8">
     <title>Broadway Design</title>
+    <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
 
     <!--This is the header-->
     <header>
-      <h1>Broadway Design</h1>
+      <h1 id="Home" class="bold">Broadway Design</h1>
       <nav>
         <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">Process</a></li>
-          <li><a href="">Work</a></li>
-          <li><a href="">Team</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#home">Home</a></li><br />
+          <li><a href="#process">Process</a></li><br />
+          <li><a href="#work">Work</a></li><br />
+          <li><a href="#team">Team</a></li><br />
+          <li><a href="#contact">Contact</a></li><br />
         </ul>
       </nav>
     </header>
@@ -25,17 +26,47 @@
 
       <!--This is the landing section-->
       <section>
+        <h2 id="process" class="bold">Our Process</h2>
+        <p><img src="./resources/images/identify.svg" alt="looped arrow" /></p>
+        <h3>Identify</h3>
+        <p>We focus on the most important details.</p>
+
+        <p><img src="./resources/images/understand.svg" alt="two arrows circling each other" /></p>
+        <h3>Understand</h3>
+        <p>We study our projects inside and out.</p>
+
+        <p><img src="./resources/images/execute.svg" alt="bold arrow" /></p>
+        <h3>Execute</h3>
+        <p>We put everything we have into our work.</p>
       </section>
 
       <!--This is the more information section-->
       <section>
+        <h4 class="bold">Designed in New York</h4>
+        <h3 id="work">Portfolio</h3>
+        <p>Coming Soon</p>
+
+        <h3 id="team">Team</h3>
+        <p>We're Hiring!</p>
+
+        <h3 id="contact">Contact</h3>
+        <p>Phone: (555)-555-5555</p>
+        <p>E-mail: test@example.com</p>
+        <p>Twitter: @test</p>
       </section>
 
     </article>
     <!--This is the end of the article-->
 
-    <!--This is the footer-->
+    <!--This is the foter-->
     <footer>
+      <p>&copy; Broadway 2017
+        <a href="#home">Home</a>
+        <a href="#process">About</a>
+        <a href="#work">Work</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </p>
     </footer>
 
   </body>
